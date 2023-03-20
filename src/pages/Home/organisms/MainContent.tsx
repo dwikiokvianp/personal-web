@@ -53,7 +53,7 @@ const MainContent = () => {
         <h1 className="font-extrabold text-6xl text-slate-800">
           {mainMenuItems.title}
         </h1>
-        <ul className="mt-3">
+        <ul className="mt-12">
           {mainMenuItems.description.map((item) => {
             return (
               <>

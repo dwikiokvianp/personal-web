@@ -25,6 +25,7 @@ const Project = () => {
         <ProjectCard />
         <ProjectCard />
       </div>
+      <div className="h-[12vh]"></div>
     </div>
   );
 };
