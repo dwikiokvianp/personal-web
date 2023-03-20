@@ -40,22 +40,12 @@ export const navigationMenu = [
   },
   {
     id: 2,
-    name: "Articles",
+    name: "Project",
     isSelected: false,
   },
   {
     id: 3,
-    name: "Projects",
-    isSelected: false,
-  },
-  {
-    id: 4,
-    name: "Speaking",
-    isSelected: false,
-  },
-  {
-    id: 5,
-    name: "Stacks",
+    name: "Stack",
     isSelected: false,
   },
 ];

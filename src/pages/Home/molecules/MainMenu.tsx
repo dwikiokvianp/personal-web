@@ -1,9 +1,18 @@
 import { useState } from "react";
 import { navigationMenu } from "../../../constant/user-related";
+import { useNavigate } from "react-router-dom";
 
 const MainMenu = () => {
   const [menu, setMenu] = useState();
-  const handleClick = (id: number) => {};
+  const navigate = useNavigate();
+  const [selectedMenu, setSelectedMenu] = useState(1);
+  const handleClick = (id: number) => {
+    setSelectedMenu(id);
+    if (id === 1) {
+      return navigate("/");
+    }
+    navigate(navigationMenu[id - 1].name.toLowerCase());
+  };
 
   return (
     <div className="hidden md:block">

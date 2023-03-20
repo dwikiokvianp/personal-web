@@ -4,7 +4,6 @@ import {
   AiFillInstagram,
   AiFillLinkedin,
   AiFillTwitterCircle,
-  MdEmail,
 } from "react-icons/all";
 
 const socialMedia = [
