@@ -1,32 +1,6 @@
 import { useState } from "react";
+import { navigationMenu } from "../../../constant/user-related";
 
-const navigationMenu = [
-  {
-    id: 1,
-    name: "About",
-    isSelected: true,
-  },
-  {
-    id: 2,
-    name: "Articles",
-    isSelected: false,
-  },
-  {
-    id: 3,
-    name: "Projects",
-    isSelected: false,
-  },
-  {
-    id: 4,
-    name: "Speaking",
-    isSelected: false,
-  },
-  {
-    id: 5,
-    name: "Stacks",
-    isSelected: false,
-  },
-];
 const MainMenu = () => {
   const [menu, setMenu] = useState();
   const handleClick = (id: number) => {};
